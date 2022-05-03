@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#cards .container .row .col-lg-4 {
+  width: 25%;
+  height: 300px;
+}
+
+#cards .container .row .col-lg-4 .image img {
+  width: 65%;
+  height: 200px;
+}
+
+#cards .container .row .col-lg-4 .about h4 {
+  font-weight: 700;
+}
+
+#cards .container .row .col-lg-4 .about a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 700px) {
+  .image {
+    width: 50%;
+  }
+  .about {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
